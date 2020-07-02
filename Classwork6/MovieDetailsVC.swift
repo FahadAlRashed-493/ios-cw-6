@@ -49,7 +49,7 @@ class MovieDetailsVC: UIViewController {
         self.movieRating.text = String(moviedata.rating)
         self.moviReleaseDate.text = String(moviedata.movieReleaseDate)
         self.actorImg1.image = UIImage(named:moviedata.actors[0])
-        self.actorName1.text = moviedata.actors[1]
+        self.actorName1.text = moviedata.actors[0]
         self.actorImg2.image = UIImage(named:moviedata.actors[1])
                self.actorName2.text = moviedata.actors[1]
         self.actorImg3.image = UIImage(named:moviedata.actors[2])
